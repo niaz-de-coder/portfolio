@@ -39,7 +39,7 @@ body{
     color: black !important;
 }
 .header-page{
-    background: url("https://i.makeagif.com/media/3-30-2024/DRr2nj.gif");
+    background: url("https://media1.tenor.com/m/cKgOapMuyWcAAAAd/coding-developer-code.gif");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -170,8 +170,26 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.btn-section{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.btn-section button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s all;
+    background-color: blue;
+    color: white;
+}
+.btn-section button:hover{
+    gap: 20px ;
+}
+.btn-section button span{
+    font-weight: bold;
 }
