@@ -3,79 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery.js"></script>
-    <link rel="shortcut icon" href="assets/image/fav.png" type="image/x-icon">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="asset/image/bkiict.jpg" type="image/x-icon">
+    <title>Home | JS Assignment</title>
 </head>
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top shadow-lg" style="background-color: #00BFFF;">
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg shadow sticky" style="background-color: white;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Portfolio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#">JS Assignment</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                <a style="color: green; text-decoration: underline green 3px;" class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#edu">Education</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#skill">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#exp">Experiences</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#pro">Project</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#con">Contact</a>
+                <a class="nav-link active" aria-current="page" href="add.html">Add</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <!-- header -->
-       <main class="header-page" id="home">
-        <div class="middle">
-          <div class="hp-img-div">
-            <img class="hp-img-1" src="assets/image/profile.png" alt="">
-            <img class="hp-img-2" src="assets/image/Profile-2.jpg" alt="">
-        </div>
-        </div>
-        <div class="info-div">
-            <h3 class="id-1">Hello World!</h3>
-            <h1 class="id-2">This is <span>Md Niaz Al Motin</span></h1>
-            <p class="id-3">Website Developer</p>
-        </div>
-        <div class="social-media">
-          <div class="sm-icon smi1"><i class="fa-brands fa-facebook"></i></div>
-          <div class="sm-icon smi2"><i class="fa-brands fa-instagram"></i></div>
-          <div class="sm-icon smi3"><i class="fa-brands fa-github"></i></div>
-          <div class="sm-icon smi4"><i class="fa-brands fa-discord"></i></div>
-        </div>
-        <div class="btn-section">
-          <a href="#about"><button>ABOUT ME <span>></span></button></a>
-        </div>
+      <!-- Welcome -->
+       <main class="welcome-page">
+        <section class="wc-1">
+            <h3>Hello World!</h3>
+            <h1>Welcome To <span>BKIICT & BCC</span></h1>
+        </section>
+        <section class="wc-2">
+        <img src="asset/image/bcc_logo.png" alt="">
+        <img src="asset/image/bkiict.jpg" alt="">
+        </section>
+        <section class="wc-3">
+            <a style="text-decoration: none;" href="add.html"><button>Add</button></a>
+        </section>
        </main>
-       <!-- About -->
-        <main class="about-page" id="about">
-          <div>
-            <img src="" alt="">
-            <div></div>
-          </div>
-        </main>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="js/json.js"></script>
+<script src="json/json.js"></script>
 </html>
